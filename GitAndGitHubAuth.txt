@@ -1,0 +1,33 @@
+Qns) how ot authenticate with github from local laptop/ How to Authenticate git with Github frol local laptop??
+
+HTTPS with Personal Access Token:
+
+1) Generate a Personal Access Token:
+
+	Log in to your GitHub account.
+	Go to Settings -> Developer settings -> Personal access tokens.
+	Click "Generate new token."
+	Choose a descriptive name for the token and select the necessary scopes (e.g., repo, user).
+	Click "Generate token."
+	Copy the generated token. It's crucial to keep this token secure as it grants access to your account.
+	
+2) Configure Git:
+	Open a terminal or command prompt.
+	Set the global user name and email:
+	
+	git config --global user.name "Your Name"
+	git config --global user.email "your_email@example.com"
+  Note: Here, replace user.name and user.email with your
+ 
+ After Replacing
+	git config --global user.name "Mahesh-Kethapaga"
+	git config --global user.email "kmswd2021@gmail.com"
+
+** Set the HTTPS URL for your repository, replacing YOUR_USERNAME and YOUR_REPO_NAME with your actual values:
+ $ git remote set-url origin https://YOUR_USERNAME:YOUR_PERSONAL_ACCESS_TOKEN@github.com/YOUR_USERNAME/YOUR_REPO_NAME.git 
+
+YOUR_USERNAME:Mahesh-Kethapaga
+YOUR_PERSONAL_ACCESS_TOKEN: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
+
+After Replacing with Your Vales:
+$git remote set-url origin https://Mahesh-Kethapaga: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@github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
