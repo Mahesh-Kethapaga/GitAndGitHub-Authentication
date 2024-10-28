@@ -27,7 +27,7 @@ HTTPS with Personal Access Token:
  $ git remote set-url origin https://YOUR_USERNAME:YOUR_PERSONAL_ACCESS_TOKEN@github.com/YOUR_USERNAME/YOUR_REPO_NAME.git 
 
 YOUR_USERNAME:Mahesh-Kethapaga
-YOUR_PERSONAL_ACCESS_TOKEN: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
+YOUR_PERSONAL_ACCESS_TOKEN:ghp_OOgJmsXIEzPlD2ScJ
 
 After Replacing with Your Vales:
-$git remote set-url origin https://Mahesh-Kethapaga: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@github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+$git remote set-url origin https://Mahesh-Kethapaga:ghp_OOgJmsXIEzPlD2ScJ8VIVBl@github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
